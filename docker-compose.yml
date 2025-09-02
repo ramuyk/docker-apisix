@@ -31,7 +31,7 @@ services:
       - "9180:9180/tcp" # APISIX admin API
       - "9091:9091/tcp" # Prometheus metrics
       - "80:9080/tcp"
-      - "443:9443/tcp"  # HTTPS port (fixed from 43)
+      - "443:9443/tcp"
     networks:
       - apisix
 
